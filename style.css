@@ -306,6 +306,9 @@ th{
     transition: .3s all ease-in-out;
 
 }
+.imagesBox h4{
+    font-weight: 800;
+}
 
 .imagesBox .boxDetails{
     padding: .6rem;
@@ -328,7 +331,7 @@ font-weight: 600;
 /* FAQ style */
 
 #FAQ{
-    min-height: 100vh;
+    height: 100vh;
     background-color: #ffffffac;
     backdrop-filter: blur(5px);
     display: flex;
@@ -386,18 +389,17 @@ footer{
 .footerItems p{
     text-align: center;
     font-weight: 600;
-    font-size: 1rem;
-    margin-top: .2rem;
+    font-size: 1.2rem;
 }
 
 
 .icon a,i{
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     color: #090808;
     margin: .2rem .8rem;
     transition: .5s ease-in-out all;
     cursor: pointer;
-    padding: .3rem;
+    padding: .2rem;
     border-radius: 50%;
     
 }
@@ -511,12 +513,6 @@ a i:hover{
         font-size: 1.03rem;
     }
 
-    #contact p{
-        font-size: 1rem;
-    }
-    #contact i{
-        font-size: 1.5rem;
-    }
     }
 
 @media (max-width : 768px){
@@ -587,12 +583,6 @@ a i:hover{
     .FAQ span{
         font-size: .87rem;
     }
-    #contact p{
-        font-size: .9rem;
-    }
-    #contact i{
-        font-size: 1.3rem;
-    }
 
 
 
@@ -626,6 +616,17 @@ a i:hover{
     .details button{
         width: 280px;
     }
+    .footerItems p{
+        font-size: 1.07rem;
+    }
+    
+    
+    .icon a,i{
+        font-size: 1.5rem;
+        margin: .2rem .8rem;
+        padding: .1rem;
+        
+    }
 
 }
 
@@ -637,13 +638,6 @@ a i:hover{
         width: 100%;
     }
 
-    #contact p{
-        font-size: .8rem;
-        
-    }
-    #contact i{
-        font-size: 1.1rem;
-    }
 }
 @media (max-width: 358px){
 
